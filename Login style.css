@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+}
+.main{
+    background: linear-gradient(to right, rgb(0, 102, 204) , rgb(204, 204, 204));
+    width: 125vw;
+    height: 100vh;
+    position: relative;
+}
+.one{
+    position: absolute;
+    width: 55vw;
+    height: 80vh;
+    top: 10vh;
+    left: 10vh;
+    }
+    h1{
+        color: blue;
+        font-size: 40px;
+    }
+.one img{
+    width: 50vw;
+    height: 80vh;
+    border: 5px rgb(90, 80, 80) solid;
+    border-radius: 30px;
+    
+    
+}
+.two form{
+    position: absolute;
+    width: 30vw;
+    height: 55vh;
+    left: 130vh;
+    border: 2px black solid;
+    background-color: white;
+    top: 20vh;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main:hover .one img{
+    left: 35vh;
+    position: relative;
+     
+
+}
+.main:hover .two form{
+    left: 68vh;
+    box-shadow: 10px 10px 10px black;
+        background-color: transparent;
+}
+.main:hover .three{
+    right: 30vh;
+}
+.three{
+            width: 18vw;
+            height: 100vh;
+            background-color: brown;
+            position: absolute;
+            right: 10vw;
+        }
+        .three img{
+            height: 100vh;
+          
+        }
+        
+input{
+    width: 40vh;
+    height: 5vh;
+    border: 2px black solid;
+    border-radius: 20px;
+    
+}
+.h1{
+    color: blue;
+    font-size: 30px;
+}
+::placeholder{
+    font-size: large;
+    color: black;
+    padding-left: 10px;
+}
+button{
+    width: 10vh;
+    height: 5vh;
+    background-color: transparent;
+    border-radius: 20px;
+
+}
+.h1{
+    color: blue;
+}
