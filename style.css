@@ -1,94 +1,54 @@
-body{
+*{
+    padding: 0;
     margin: 0;
 }
-.main{
-    background: linear-gradient(to right, rgb(0, 102, 204) , rgb(204, 204, 204));
-    width: 125vw;
-    height: 100vh;
-    position: relative;
+nav{
+    background-color: black;
+    color: white;
+    padding: 20px;
 }
-.one{
-    position: absolute;
-    width: 55vw;
-    height: 80vh;
-    top: 10vh;
-    left: 10vh;
-    }
-    h1{
-        color: blue;
-        font-size: 40px;
-    }
-.one img{
-    width: 50vw;
-    height: 80vh;
-    border: 5px rgb(90, 80, 80) solid;
-    border-radius: 30px;
-    
-    
+ul,li,h1{
+    display: inline;
 }
-.two form{
-    position: absolute;
-    width: 30vw;
-    height: 55vh;
-    left: 130vh;
-    border: 2px black solid;
-    background-color: white;
-    top: 20vh;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+ul{
+    margin-left: 58%;
 }
-.main:hover .one img{
-    left: 35vh;
-    position: relative;
-     
-
+li{
+    color: gray;
 }
-.main:hover .two form{
-    left: 68vh;
-    box-shadow: 10px 10px 10px black;
-        background-color: transparent;
+li:hover{
+    color: white;
 }
-.main:hover .three{
-    right: 30vh;
-}
-.three{
-            width: 18vw;
-            height: 100vh;
-            background-color: brown;
-            position: absolute;
-            right: 10vw;
-        }
-        .three img{
-            height: 100vh;
-          
-        }
-        
 input{
-    width: 40vh;
-    height: 5vh;
-    border: 2px black solid;
-    border-radius: 20px;
-    
+    width: 60%;
+    padding: 15px;
 }
-.h1{
+.search{
+    padding: 20px;
+    text-align: center;
+}
+.p{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    text-align: center;
     color: blue;
-    font-size: 30px;
 }
-::placeholder{
-    font-size: large;
-    color: black;
-    padding-left: 10px;
-}
-button{
-    width: 10vh;
-    height: 5vh;
-    background-color: transparent;
-    border-radius: 20px;
+.p:hover{
+    background-color: black;
+    color: white;
 
 }
-.h1{
-    color: blue;
+.About{
+    text-align: center;
+    padding: 15px;
+}
+.text{
+    color: white;
+}
+.bc{
+    background-color: black;
+    width: 100%;
+    height: 200px;
 }
