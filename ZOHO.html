@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZOHO Logo in html</title>
+    <style>
+        body{
+            background-color: white;
+            border: o;
+        }
+        .main{
+            width: 100vw;
+            height: 100vh;
+            
+        }
+        .Box{
+            width: 20vw;
+            height: 40vh;
+            font-size: 200px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50px;
+            font-weight: bold;
+            
+        }
+        .sub1{
+            background-color: red;
+            position: absolute;
+            left: 10vh;
+            top: 30vh;
+
+        }
+        .sub2{
+            background-color: green;
+            position: absolute;
+            left: 60vh;
+            top: 35vh;
+
+        }
+        .sub3{
+            background-color: rgb(72, 72, 206);
+            position: absolute;            
+            left: 110vh;
+            top: 30vh;
+
+        }
+        .sub4{
+            background-color: yellow;
+            position: absolute;
+            left: 160vh;
+            top: 35vh;
+
+        }
+        .main:hover .sub1{
+            border: 5px solid red;
+            background-color: white;
+            color: red;
+            top: 35vh;
+            transition: all 1s ease-in-out;
+            transform: rotate(-25deg)
+
+        }
+        .main:hover .sub2{
+            border: 5px solid green;
+            background-color: white;
+            color: green;
+            top: 30vh;
+            transition: all 1s ease-in-out;
+            transform:rotate(25deg);
+
+        }.main:hover .sub3{
+            border: 5px solid rgb(72, 72, 206);
+            background-color: white;
+            color: rgb(72, 72, 206);
+            top: 35vh;
+            transition: all 1s ease-in-out;
+            transform:rotate(-25deg);
+
+        }
+        .main:hover .sub4{
+            border: 5px solid yellow;
+            background-color: white;
+            color: yellow;
+            top: 30vh;
+            transition: all 0.5s ease-in-out;
+            transform:rotate(25deg);
+
+        }
+        .sub5{
+            position: fixed;
+            top: -13vh;
+        }
+        .main2{
+            width: 100vw;
+            height: 100vh;
+
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="Box sub1">Z
+
+
+        </div>
+        <div class="Box sub2">O
+
+
+        </div>
+        <div class="Box sub3">H
+
+
+
+        </div>
+        <div class="Box sub4">O
+
+
+        </div>
+        <div class="Box sub5">
+            <img src="https://hexmos.com/freedevtools/svg_icons/salesforce/zoho-logos.svg" alt="logo"
+            style="width: 200px;height: 150px;">
+
+        </div>
+
+
+    </div>
+    <div class="main2">
+
+    </div>
+</body>
+</html>
