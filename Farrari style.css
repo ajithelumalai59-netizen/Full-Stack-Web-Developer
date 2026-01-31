@@ -1,0 +1,168 @@
+body{
+            margin: 0;
+        }
+        .main1{
+            width: 100vw;
+            height: 120vh;
+            background-color: black;
+            position: relative;
+
+        }
+        .sub11{
+            width: 100vw;
+            height: 70vh;
+            position: absolute;
+
+        }
+        .sub11 img{
+            width: 100%;
+            height: 100%;
+        }
+        .sub12{
+            top: 70vh;
+            width: 100vw;
+            height: 50vh;
+            position: absolute;
+             overflow: hidden;
+             transition: all 2s ease;
+        }
+        .sub12 img{
+           width: 100%;
+           height: 100vh;
+          
+        }
+        .main1:hover .sub12{
+            height: 75vh;
+            top: 25vh;
+
+        }
+        .sub13{
+            position: absolute;
+            left: 140vh;        
+            font-size: 20px;
+            color: whitesmoke;
+        }
+        .sub13 td{
+            padding: 20px;
+        }
+        .sub14{
+            width: 100vw;
+            height: 30vh;
+            font-size: 140px;
+            font-family: 'Times New Roman', Times, serif;
+            color: white;
+            text-align: center;
+            position: absolute;
+            top: 15vh;
+            transition: all 2s ease;
+            
+        }
+        .main1:hover .sub14{
+            top: 60vh;
+
+        }
+        .sub15{
+            width: 6vw;
+            height: 15vh;
+            position: absolute;
+            top: 4vh;
+            left: 2vh;
+            position: fixed;
+        
+        }
+        .sub15 img{
+            width: 100%;
+            height: 100%;
+    
+        }
+        .main2{
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+            
+        }
+        video{
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            
+        }
+        .main3{
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+        }
+        .Box3 img{
+            width: 50vw;
+            height: 50vh;
+            object-fit: cover;
+            
+        }
+        .Box3{
+            width: 50vw;
+            height: 50vh;
+            overflow: hidden;
+        }
+        .Box3 img:hover{
+            transform: scale3d(1.2,1.2,1.8);
+            transition: all 1s ease;
+        }
+        .sub31{
+            position: absolute;
+            top: 0vh;
+            left: ovh;
+
+        }
+        .sub32{
+            position: absolute;
+            top: 0vh;
+            left: 50vw;
+           
+
+        }
+        .sub33{
+            position: absolute;
+            top: 50vh;
+            left: ovh;
+      
+
+        }
+        .sub34{
+            position: absolute;
+            top: 50vh;
+            left: 50vw;
+          
+
+        }
+        .main4{
+            position: relative;
+            width: 100vw;
+            height: 50vh;
+            background-color: black;
+        }
+        button{
+            position: absolute;
+            border: 2px black solid;
+            background-color: red;
+            border-radius: 10px;
+            width: 20vh;
+            height: 30px;
+            top: 10vh;
+            left: 45vw;
+        }
+        button:hover{
+            background-color: black;
+            color: whitesmoke;
+            border: 2px white solid;
+        }
+        p{
+            position: absolute;
+            top: 25vh;
+            color: whitesmoke;
+        }
+        h4{
+            position: absolute;
+            top: 42vh;
+            color: white;
+            left: 44.5vw;
+        }
