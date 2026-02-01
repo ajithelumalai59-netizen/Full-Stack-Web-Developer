@@ -1,0 +1,59 @@
+ <style>
+        #h1{
+            text-size-adjust: inherit;
+            
+
+        }
+        body{
+            color: white;
+            background-color: rgb(224, 168, 94);
+            text-align: center;
+        }
+        img{
+            width: 1000px;
+            height: 400px;
+            border-color: white;
+            border-width: 10px;
+            border: solid;
+            border-radius: 250px;
+        }
+        .sub{
+            background-color: aliceblue;
+            width: 200px;
+            border-radius: 30px;
+        }
+        .sub img{
+             width: 150px;
+            height: 150px;
+            border-color: white;
+            border-width: 10px;
+            border: solid;
+            border-radius: 30px;
+            transform: all 1s ease ;
+        
+        }
+        .sub button{
+            width: 100px;
+            height: 30px;
+            text-align: center;
+            border-color: burlywood;
+            border-width: 10px;
+            border: solid;
+            border-radius: 30px
+        }
+        .main{
+           
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .sub:hover{
+            transform: translateY(-50px);
+        }
+        #s1{
+            background-color: rgb(224, 168, 94) 
+            
+        }
+        
+
+        
+    </style>
