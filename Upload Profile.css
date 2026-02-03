@@ -1,0 +1,120 @@
+ body{
+            margin: 0px;
+        }
+        .main1{
+            position: relative;
+            width: 100vw;
+            height: 60vh;
+        }
+       
+        
+        .sub11 form{
+            position: absolute;
+            width: 35vw;
+            height: 40vh;
+            background-color: white;
+            border: 5px black solid;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            left: 30vw;
+            top: 4vh;
+            padding: 30px;
+            box-shadow: 10px 10px 10px black;
+            transition: all 1s ease;
+            
+        }
+        .sub11 form:hover{
+            transform: scale3d(1.1,1.1,1.1);
+            
+        }
+       
+        input{ 
+    width: 20vw;
+    padding: 10px;
+    border: 2px black solid;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+    
+}
+.sub11 h1{
+    color: blue;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px rgb(112, 112, 199);
+}
+::placeholder{
+    font-size: large;
+    color: black;
+    padding-left: 20px;
+}
+.b1{
+    width: 15vh;
+    height: 4vh;
+    background-color: transparent;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px black;
+    position: absolute;
+    top: 23vw;
+    left: 46vw;
+}
+.b1:hover{
+    background-color: blue;
+    color: black;
+}
+#button{
+    position: absolute;
+        width: 100px;
+        height: 30px;
+        background-color: white;
+        color: black;
+        font-size: larger;
+        border-radius: 10px;
+        left: 20vw;
+    }
+    #button1{
+        position: absolute;
+        width: 100px;
+        height: 30px;
+        background-color: black;
+        color: white;
+        font-size: larger;
+        border-radius: 10px;
+        border: 2px black solid;
+        left:75vw;
+    }
+.sub11 h1{
+    color: blue;
+}
+.main2{
+            position: relative;
+            width: 100vw;
+            height: 60vh;
+        }
+
+.sub22{
+    position: absolute;
+    
+    width: 40vw;
+    height: 55vh;
+    border: 5px black solid;
+    border-radius: 50px;
+    text-align: center;
+    top: 5vh;
+    left: 30vw;
+    box-shadow: 10px 10px 10px rgb(49, 42, 42);
+    transition: all 1s ease;
+    
+}
+.sub22:hover{
+    transform: scale3d(1.1,1.1,1.1);
+}
+.sub22 img{
+    width: 15vw;
+    height: 30vh;
+    border: 3px black solid;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px gray;
+
+}
