@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idcardmorder in js</title>
+</head>
+<body>
+    <script>
+        class Idcardmorder{
+            constructor(Name,Age,DOB){
+                this.name=Name;
+                this.age=Age;
+                this.dob=DOB;
+            }
+            printing(){
+                document.write(`Name is ${this.name}, ${this.age} years old, Date of birth is ${this.dob}<br>`)
+            }
+        }
+
+        let AjithId = new Idcardmorder("Ajith", 18, "12/08/2007");
+        let VinayagamId = new Idcardmorder("Vinayagam", 18, "28/05/2006");
+        let AnandId = new Idcardmorder("Anand", 18, "21/02/2006");
+        AjithId.printing();
+        VinayagamId.printing();
+        AnandId.printing();
+    </script>
+    
+</body>
+</html>
