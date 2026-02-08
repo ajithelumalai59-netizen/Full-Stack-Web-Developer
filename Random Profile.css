@@ -1,0 +1,44 @@
+body{
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px;
+      color: rgb(43, 43, 43);
+    }
+    #user {
+      text-align: center;
+      margin-top: 20px;
+    }
+    img {
+      border-radius: 30%;
+      box-shadow: 3px 3px 3px gray;
+      
+    }
+    img:hover{
+        transform: scale3d(1.1, 1.1, 1.1);
+    }
+    button{
+        width: 16vh;
+        height: 6h;
+        background-color: rgb(86, 86, 148);
+        color: whitesmoke;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px gray;
+    }
+    button:hover{
+        background-color: rgb(20, 20, 223);
+        transform: scale3d(1.1, 1.1, 1.1);
+    }
+    h1:hover{
+        color: black;
+    }
+    h2:hover{
+        color: black;
+    }
+    h4:hover{
+        color: black;
+    }
+    h5:hover{
+        color: black;
+    }
