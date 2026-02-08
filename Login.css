@@ -1,0 +1,74 @@
+body{
+            background-image: url(https://assets.superhivemarket.com/store/productimage/787217/image/xlarge-d0e64897a897f8e30dd06c79fdf99979.png) ;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+        div{
+            position:absolute;
+            top: 10vh;
+            left: 5vh;
+            width: 40vw;
+            height: 75vh;
+            border: 0px black solid;
+            border-radius: 20px;
+            color: white;
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 10px 10px 10px black;
+            transition: all 3s ease;
+
+        }
+        div:hover{
+            top: 15vh;
+            left: 110vh;
+            
+        }
+    
+        h1{
+            position: absolute;
+            top: 0vh;
+            font-size: 50px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        label{
+            top: 20vh;
+            left: 2vh;
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            
+        }
+        table{
+            
+            margin-top: 70px;
+            
+        }
+        input{
+            width: 35vh;
+            padding: 7px;
+            border: 1px white solid;
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px black;
+
+        }
+        table td{
+            padding: 10px;
+        }
+        button{
+            position: absolute;
+            left: 35vh;
+            top: 62vh;
+            width: 15vh;
+            height: 5vh;
+            border: 1px white solid;
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px black;
+
+        }
+        button:hover{
+            background-color: black;
+            color: whitesmoke;
+        }
